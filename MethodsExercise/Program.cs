@@ -35,7 +35,9 @@
 
             Console.WriteLine($"I see! I am not a big fan of {animal}, I am more of a horse person myself. Do you like music? What is your favorite band?");
             var band = Console.ReadLine();
-        
+
+            Console.WriteLine($"Today, I met {name}. We had a brief conversation and I learned that his favorite color is {color}, his favorite animal is {animal}, and his favorite band is {band}.")
+
         }
             //---------------Exercise 2----------------
         public static int Sum(int num1, int num2)
